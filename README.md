@@ -11,8 +11,9 @@ I was able to recreate [Escher's effect](https://en.wikipedia.org/wiki/Print_Gal
 ---
 
 Jump forward to:
-1.   [Applying your own function](#applying-your-own-functions)
-2.  [Creating your own Escher-style images](#creating-an-escher-style-image)
+1.  [Installation](#installation)
+2.   [Applying your own function](#applying-your-own-functions)
+3.  [Creating your own Escher-style images](#creating-an-escher-style-image)
 
 ## Some cool effects I got:
 | Inv-Function | 3B1B's image | My Droste Image | Rings
@@ -28,6 +29,8 @@ Jump forward to:
 | [Weierstrass Elliptical function](https://en.wikipedia.org/wiki/Weierstrass_elliptic_function) | <a href="https://raw.githubusercontent.com/TitanStar73/image-math/refs/heads/main/assets/weierstrass/3b1b.png" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/TitanStar73/image-math/refs/heads/main/assets/weierstrass/3b1b.png" height="121" width="121"/></a> | <a href="https://raw.githubusercontent.com/TitanStar73/image-math/refs/heads/main/assets/weierstrass/droste_test.png" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/TitanStar73/image-math/refs/heads/main/assets/weierstrass/droste_test.png" height="121" width="121" /></a> | <a href ="https://raw.githubusercontent.com/TitanStar73/image-math/refs/heads/main/assets/weierstrass/droste_test2.png" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/TitanStar73/image-math/refs/heads/main/assets/weierstrass/droste_test2.png" height="121" width="121" /></a>
 
 
+## Installation:
+```pip install image-math```
 
 ## Applying your own functions:
 1. Create the [inverse of your function](https://en.wikipedia.org/wiki/Inverse_function). e.g. if $f(x) = e^x$, the inverse function is $g(x) = log(x)$
